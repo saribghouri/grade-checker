@@ -1,0 +1,73 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+
+  padding: 10px;
+}
+.form-button {
+  display: flex;
+  width: 100%;
+  margin-top: 11px;
+  background-color: rgba(53, 86, 129, 50);
+  border-radius: 6px;
+  color: darkgray;
+  padding: 5px;
+  font-size: 19px;
+  justify-content: center;
+  height: 40px;
+}
+.form-control {
+  margin-bottom: 7px;
+  background-color: rgba(166, 166, 166, 0.835);
+  color: black;
+  border-radius: 6px;
+  width: 97%;
+  padding: 3px;
+  height: 34px;
+}
+
+h1 {
+  margin: 1em 0 0.5em 0;
+
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  position: relative;
+  text-shadow: 0 -1px 1px rgb(0 0 0 / 40%);
+  font-size: 26px;
+  line-height: 40px;
+  color: #355681;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(53, 86, 129, 0.3);
+}
+
+::placeholder {
+  color: rgb(15, 15, 15);
+}
+
+#showdata {
+  border: 2px solid;
+  background-color: rgba(166, 166, 166, 0.835);
+  border-radius: 10px;
+  padding: 6px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  /* width: 96%; */
+}
+
+#labal {
+  margin-left: 72px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+}
