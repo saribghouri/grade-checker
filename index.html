@@ -12,60 +12,136 @@
     <!-- main html  -->
     <div class="container">
       <h1>Student grade calculator</h1>
+      <div class="main">
       <div class="screen-body-item">
+        <div class="section">
+        <div class="form-group">
+          <!-- option for taking the input -->
+
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="chemis"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="ur"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="math"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="eng"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="p-st"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="ENTER SUBJECT MARKS"
+            id="PHYSICS"
+          />
+          <LAbel class="total">total marks</LAbel>
+          <h1 id="marks" ></h1>
+        </div>
+      </div>
+        </div>
         <div class="app">
           <div class="form-group">
             <!-- option for taking the input -->
 
             <input
-              type="text"
+            min="1"
+            max="100"
+            type="number"
               class="form-control"
               placeholder="CHEMISTRY"
               id="chemistry"
+              required
             />
           </div>
           <div class="form-group">
             <input
-              type="text"
-              class="form-control"
-              placeholder="URDU"
-              id="urdu"
+            type="number"
+            class="form-control"
+            placeholder="URDU"
+            id="urdu"
+            min="1"
+            max="100"
+            required
             />
           </div>
           <div class="form-group">
             <input
-              type="text"
-              class="form-control"
-              placeholder="MATHS"
-              id="maths"
+            type="number"
+            class="form-control"
+            placeholder="MATHS"
+            id="maths"
+            min="1"
+            max="100"
+            required
             />
           </div>
           <div class="form-group">
             <input
-              type="text"
+            type="number"
               class="form-control"
               placeholder="ENGLISH"
               id="english"
+              min="1"
+              max="100"
+              required
             />
           </div>
           <div class="form-group">
             <input
-              type="text"
+  
+              type="number"
               class="form-control"
               placeholder="PAK-STUDIES"
               id="pak-studies"
+              min="1"
+              max="100"
+              required
             />
           </div>
           <div class="form-group">
             <input
+     
               type="text"
               class="form-control"
               placeholder="PHYSICS"
               id="phy"
+              min="1"
+              max="100"
             />
           </div>
           <div>
             <input
+          
               type="button"
               value="show Percentage"
               class="form-button"
@@ -74,6 +150,7 @@
           </div>
         </div>
       </div>
+    </div>
       <!-- for showing the result-->
       <div class="form-group-showdata">
         <p id="showdata"></p>
